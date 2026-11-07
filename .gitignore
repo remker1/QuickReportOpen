@@ -1,0 +1,42 @@
+# Build outputs
+/build/
+/build-msvc/
+/out/
+/cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Generated portable deployment (reproducible via deploy.ps1)
+/Deployment/
+
+# Large bundled third-party tools (distributed separately, not versioned)
+/EasyBackup.exe
+/OfficeSetup.exe
+
+# Compiled files
+*.obj
+*.o
+*.pdb
+*.ilk
+*.lib
+*.dll
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Local editor/agent settings
+/.vs/
+/.vscode/
+/.idea/
+/.claude/
+/.cursor/
+/.agents/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
